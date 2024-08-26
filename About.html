@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="all.min.css">
     <link rel="stylesheet" href="CSS/About.css">
+    <link rel="stylesheet" href="CSS/Slide.css">
     <script src="Script/About.js"></script>
+    <script src="Script/Slide.js"></script>
 </head>
 <body>
     <div class="space" id="about"></div>
@@ -18,7 +20,7 @@
                 <a href="index.html" class="logo_name">Makaan</a>
             </li>
             <li class="nav_ele"><a href="index.html" class=" link less">HOME</a></li>
-            <li class="nav_ele"><a href="About.html" class="active link less">ABOUT</a></li>
+            <li class="nav_ele"><a href="About.html" class=" link less">ABOUT</a></li>
             <li class="hover_container">
                 <span class="hover_text link"><p>PROPERTY <i class="fa-solid fa-angle-down"></i></p></span>
                 <div class="menu">
@@ -49,7 +51,18 @@
     </header>
     <div class="container">
         <div class="right">
-            <img src="Gallery/About.jpg">
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="Gallery/carousel-2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                  <img src="Gallery/carousel-1.jpg" style="width:100%">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
         </div>
         <div class="left">
             <div class="text">

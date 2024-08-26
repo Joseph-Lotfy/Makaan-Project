@@ -24,7 +24,6 @@ body{
 /* Container  Start*/
 .container{
     max-width: 75rem;
-    height: 500px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -221,6 +220,7 @@ header{
     background-color: var(--primary);
     max-width: 75rem;
     margin: auto;
+    margin-top: -4px;
 }
 .search_bar{
     height: 56px;
@@ -462,8 +462,8 @@ footer{
         padding: 0;
         margin-right: 20px;
     }
-    .left_arrow, .right_arrow{
-        left: 0;
+    .prev, .next{
+        left: 0 !important;
     }
     .left_arrow{
         top: 40%;
@@ -550,6 +550,10 @@ footer{
 @media screen  and (width < 650px) {
     .right_text{
         padding-inline: 20px;
+    }
+    .prev, .next{
+        width: 30px !important;
+        height: 30px !important;
     }
 }
 
