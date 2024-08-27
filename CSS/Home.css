@@ -565,6 +565,7 @@ footer{
     font-size: 2.5rem;
     color: #0E2E50;
     margin-bottom: 20px;
+    padding-top: 60px;
 }
 .agent_container p {
     text-align: center;
@@ -694,7 +695,7 @@ article .container:hover p{color: white;}
     position: relative;
     max-width: 83rem;
     /* height: 900px; */
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     margin: auto;
 }
 
@@ -704,7 +705,7 @@ article .container:hover p{color: white;}
 
 .propList .top h3 {
     font-size: 40px;
-    padding-top: 100px;
+    padding-top: 60px;
     padding-left: 20px;
     color: #0e2e50;
 }
@@ -765,6 +766,7 @@ article .container:hover p{color: white;}
     border: 1px solid white;
     background-color: white;
     position: relative;
+    box-shadow: 0 0 10px rgb(225, 221, 221);
 }
 
 .propList .propContainer .property .img {
@@ -888,7 +890,7 @@ article .container:hover p{color: white;}
     cursor: pointer;
     width: 270px;
     margin: auto;
-    margin-block: 50px;
+    margin-top: 50px;
 }
 
 .propList .browse:hover {

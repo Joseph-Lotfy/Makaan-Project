@@ -10,6 +10,17 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="CSS/all.min.css">
     <link rel="stylesheet" href="CSS/Testimonial.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <!-- === Swiper CSS === -->
+    <link rel="stylesheet" href="CSS/swiper-bundle-min.css" />
+
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="CSS/style.css" />
     <script src="Script/script.js"></script>
 </head>
 
@@ -105,33 +116,66 @@
         <h2>Our Clients Say!</h2>
         <p class="desc2">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
     
-        <div class="testimonial-container">
-            <button class="prev"><i class="fa-solid fa-arrow-left-long"></i></button>
-            
-            <div class="testimonial">
-                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos.</p>
-                <div class="client-info">
-                    <img src="Gallery/testimonial-3.jpg" alt="Client Photo">
-                    <div>
-                        <h4>Client Name</h4>
-                        <p>Profession</p>
-                    </div>
+        <section class="container2">
+            <div class="card-container swiper">
+              <div class="card-content">
+                <div class="swiper-wrapper">
+                  <!-- Article -->
+                  <article class="card-article swiper-slide">
+                    <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos.</p>
+                      <div class="client-info">
+                          <img src="Gallery/testimonial-1.jpg" alt="Client Photo">
+                          <div>
+                              <h4>Client Name</h4>
+                              <p>Profession</p>
+                          </div>
+                      </div>
+                  </article>
+                  <article class="card-article swiper-slide">
+                    <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos.</p>
+                      <div class="client-info">
+                          <img src="Gallery/testimonial-2.jpg" alt="Client Photo">
+                          <div>
+                              <h4>Client Name</h4>
+                              <p>Profession</p>
+                          </div>
+                      </div>
+                  </article>
+                  <article class="card-article swiper-slide">
+                    <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos.</p>
+                      <div class="client-info">
+                          <img src="Gallery/testimonial-3.jpg" alt="Client Photo">
+                          <div>
+                              <h4>Client Name</h4>
+                              <p>Profession</p>
+                          </div>
+                      </div>
+                  </article>
+                  <article class="card-article swiper-slide">
+                    <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos.</p>
+                      <div class="client-info">
+                          <img src="Gallery/testimonial-4.jpg" alt="Client Photo">
+                          <div>
+                              <h4>Client Name</h4>
+                              <p>Profession</p>
+                          </div>
+                      </div>
+                  </article>
                 </div>
+              </div>
+      
+              <!-- Navigation Buttons -->
+              <div class="swiper-button-next">
+                <i class="ri-arrow-right-s-line"></i>
+              </div>
+      
+              <div class="swiper-button-prev">
+                <i class="ri-arrow-left-s-line"></i>
+              </div>
             </div>
-    
-            <div class="testimonial less">
-                <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos.</p>
-                <div class="client-info">
-                    <img src="Gallery/testimonial-4.jpg" alt="Client Photo">
-                    <div>
-                        <h4>Client Name</h4>
-                        <p>Profession</p>
-                    </div>
-                </div>
-            </div>
-    
-            <button class="next"><i class="fa-solid fa-arrow-right-long"></i></button>
-        </div>
+          </section>
+      
+          
     </section>
     <!-- Testimonial end -->
     <!-- Footer Start -->
@@ -177,6 +221,10 @@
             </form>
         </div>
     </footer>
+
+    <script src="Script/swiper-bundle-min.js"></script>
+
+    <script src="Script/script-swiper.js"></script>
 </body>
 
 </html>
