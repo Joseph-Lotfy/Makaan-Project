@@ -243,6 +243,7 @@ header{
     background-color: var(--primary);
     max-width: 83rem;
     margin: auto;
+    margin-top: -4px;
 }
 .search_bar{
     height: 56px;
@@ -978,7 +979,7 @@ article .container:hover p{color: white;}
     font-size: 14px;
 }
 
-button.prev, button.next {
+button.prev2, button.next2 {
     background-color: #2ecc71;
     border: none;
     color: white;
@@ -1126,15 +1127,7 @@ input{
         padding: 0;
         margin-right: 20px;
     }
-    .left_arrow, .right_arrow{
-        left: 0;
-    }
-    .left_arrow{
-        top: 40%;
-    }
-    .right_arrow{
-        top: 60%;
-    }
+    
     h1{
         font-size: 2rem;
     }
@@ -1198,5 +1191,25 @@ input{
     }
     .space_div{
         height: 0;
+    }
+    .prev, .next{
+        left: 0 !important;
+    }
+    .prev{
+        top: 40%;
+    }
+    .next{
+        top: 60%;
+    }
+}
+@media screen  and (width < 650px) {
+    .right_text{
+        padding-inline: 20px;
+    }
+    .prev{
+       top: 45% !important; 
+    }
+    .next{
+        top: 66% !important;
     }
 }

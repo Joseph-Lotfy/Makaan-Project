@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="CSS/all.min.css">
     <link rel="stylesheet" href="CSS/Home.css">
     <script src="Script/script.js"></script>
+    <link rel="stylesheet" href="CSS/Slide.css">
+    <script src="Script/Slide.js"></script>
 </head>
 
 <body>
@@ -57,9 +59,16 @@
     </header>
     <div class="container">
         <div class="right">
-            <img src="Gallery/carousel-1.jpg">
-            <div class="right_arrow"><i class="fa fa-chevron-right"></i></div>
-            <div class="left_arrow"><i class="fa fa-chevron-left"></i></div>
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="Gallery/carousel-2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="Gallery/carousel-1.jpg" style="width:100%">
+            </div>
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <div class="left">
             <div class="text">
@@ -270,7 +279,7 @@
         <p class="desc2">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
     
         <div class="testimonial-container">
-            <button class="prev"><i class="fa-solid fa-arrow-left-long"></i></button>
+            <button class="prev2"><i class="fa-solid fa-arrow-left-long"></i></button>
             
             <div class="testimonial">
                 <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos.</p>
@@ -294,7 +303,7 @@
                 </div>
             </div>
     
-            <button class="next"><i class="fa-solid fa-arrow-right-long"></i></button>
+            <button class="next2"><i class="fa-solid fa-arrow-right-long"></i></button>
         </div>
     </section>
     <!-- Testimonial end -->
