@@ -1,3 +1,7 @@
+var loader = document.getElementById('preloader');
+window.addEventListener('load', function(){
+    loader.style.display = "none";
+})
 window.addEventListener('scroll', function() {
     if(this.scrollY > 40){
         document.getElementById('head').style.maxWidth = '75rem';

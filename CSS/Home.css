@@ -1096,7 +1096,17 @@ input{
     display: inline-block;
 }
 /* Registration end */
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 100000;
+    background: white url(../Gallery/Spinner-5.gif);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: center;
 
+}
 /* Arrow End */
 @media screen and (width < 1100px) {
     .container{
