@@ -27,7 +27,6 @@
 }
 
 body {
-  font-family: var(--body-font);
   font-size: var(--normal-font-size);
 
   color: var(--white-color);
@@ -59,7 +58,7 @@ a {
   overflow: hidden;
   border: #EFFDF5 10px solid;
   border-radius: 10px;
-  
+  padding: 10px;
 }
 
 .card-image {

@@ -1281,4 +1281,20 @@ input{
         width: 100%;
         margin-top: 20px;
     }
+    .propList .propContainer .property h5{
+        padding-left: 10px;
+    }
+    .propList .propContainer .property a{
+        padding-left: 10px;
+
+    }
+    .propList .propContainer .property .location{
+        padding-left: 10px;
+    }
+    .property{
+        height: 420px !important;
+    }
+    .propList .browse{
+        margin-top: 0;
+    }
 }
