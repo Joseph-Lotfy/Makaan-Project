@@ -1215,3 +1215,70 @@ input{
         top: 66% !important;
     }
 }
+@media screen and (width < 400px)
+{
+    .nav{
+        display: grid;
+        height: 110px;
+        width: 100%;
+        justify-content: center;
+        grid-template-rows: 70px 30px;
+        grid-template-areas: 
+        "Log Log"
+        "prop page";
+        justify-items: center;
+        padding-block: 6px;
+    }
+    .Logo{
+        grid-area: Log;
+        margin: auto;
+    }
+    .logo_name{
+        font-size: calc(2.5rem + 1.5vw);
+    }
+    .hover_text{
+        max-width: 120px;
+        text-align: center;
+        margin:0;
+    }
+    .prop{
+        grid-area: prop;
+    }
+    .page{
+        grid-area: page;
+    }
+    .left{
+        padding-inline: 20px;
+    }
+    .left .text h1 {
+        font-size: 2.4rem;
+    }
+    .get_started{
+        width: 100%;
+        text-align: center;
+    }
+    .agent_container{
+        padding: 20px;
+    }
+    .agent_container p{
+        width: 90%;
+    }
+    .agent_container h3{
+        font-size: 2.2rem;
+    }
+    .propList .top h3{
+        font-size: 2.2rem;
+        padding-top: 10px;
+    }
+    .reg{
+        padding: 20px;
+        padding-top: 40px;
+    }
+    .reg_desc{
+        width: 100%;
+    }
+    form .sub2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
