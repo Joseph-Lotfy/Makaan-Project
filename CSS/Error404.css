@@ -484,7 +484,8 @@ footer{
     }
     .menu{
         width: fit-content;
-
+        left: -20px;
+        top: 47px;
     }
     .search_button{
         width: 100%;
@@ -536,7 +537,7 @@ footer{
         height: 0;
     }
 }
-@media screen and (width < 400px)
+@media screen and (width < 450px)
 {
     .nav{
         display: grid;
@@ -544,6 +545,8 @@ footer{
         width: 100%;
         justify-content: center;
         grid-template-rows: 70px 30px;
+        grid-template-columns: 150px 150px;
+
         grid-template-areas: 
         "Log Log"
         "prop page";
@@ -601,6 +604,14 @@ footer{
     form .sub2 {
         width: 100%;
         margin-top: 20px;
+    }
+    .menu{
+        width: 130px;
+        left: -20px;
+        top: 28.5px;
+    }
+    .menu li a{
+        padding-inline: 10px;
     }
 }
 /* Footer end */

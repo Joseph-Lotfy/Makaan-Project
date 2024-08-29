@@ -570,6 +570,8 @@ footer{
         width: 100%;
         justify-content: center;
         grid-template-rows: 70px 30px;
+        grid-template-columns: 150px 150px;
+
         grid-template-areas: 
         "Log Log"
         "prop page";
@@ -629,6 +631,14 @@ footer{
         margin-top: 20px;
     }
     .p1{
+        padding-inline: 10px;
+    }
+    .menu{
+        width: 130px;
+        left: -20px;
+        top: 28.5px;
+    }
+    .menu li a{
         padding-inline: 10px;
     }
 }

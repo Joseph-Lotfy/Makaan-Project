@@ -487,7 +487,8 @@ footer{
     }
     .menu{
         width: fit-content;
-
+        left: -20px;
+        top: 47px;
     }
     .search_button{
         width: 100%;
@@ -571,6 +572,8 @@ footer{
         width: 100%;
         justify-content: center;
         grid-template-rows: 70px 30px;
+        grid-template-columns: 150px 150px;
+
         grid-template-areas: 
         "Log Log"
         "prop page";
@@ -634,6 +637,14 @@ footer{
     }
     .desc{
         font-size: 2.2rem;
+    }
+    .menu{
+        width: 130px;
+        left: -20px;
+        top: 28.5px;
+    }
+    .menu li a{
+        padding-inline: 10px;
     }
 }
 
